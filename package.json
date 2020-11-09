@@ -12,7 +12,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "author": "Gustav Caves <rungustavo@gmail.com> (http://gustavcaves.github.io/)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0",
