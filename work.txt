@@ -1,4 +1,4 @@
-gustavcaves.github.io/
+# [gustavcaves.github.io](https://gustavcaves.github.io)
 =========
 
 Gustav Caves
@@ -7,14 +7,13 @@ Full-Stack Developer Jr
 Contact
 -------
 
-* [gustavcaves.github.io](https://gustavcaves.github.io/)
 * [rungustavo@gmail.com](mailto:rungustavo@gmail.com)
 * [@gustavcaves on Twitter](https://twitter.com/gustavcaves)
 
 Projects
 --------
 
-* gustavcaves.github.io
+* [gustavcaves.github.io](https://gustavcaves.github.io)
 
 Open Source
 -----------
