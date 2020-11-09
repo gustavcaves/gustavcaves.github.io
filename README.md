@@ -1,14 +1,14 @@
-STRML.net
+gustavcaves.github.io
 =========
 
-[View Site](http://strml.net)
+[View Site](https://gustavcaves.github.io/)
 
 Building
 --------
 
 ```bash
-git clone git@github.com:STRML/strml.net.git
-cd strml.net
+git clone https://github.com/gustavcaves/gustavcaves.github.io.git
+cd gustavcaves.github.io
 npm install
 npm run dev
 # Open localhost:4003/index-dev.html in your browser
@@ -19,4 +19,10 @@ Building for Production
 
 ```bash
 npm run build
+```
+
+From
+--------
+
+```STRML.net
 ```
