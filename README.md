@@ -24,5 +24,6 @@ npm run build
 From
 --------
 
-```STRML.net
+```bash
+STRML.net
 ```
