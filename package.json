@@ -7,7 +7,9 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --open --mode development",
-    "watch": "webpack --progress --watch"
+    "watch": "webpack --progress --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
   "license": "MIT",
@@ -34,8 +36,4 @@
     "markdown": "^0.5.0",
     "mouse-wheel": "^1.0.2"
   }
-  "scripts":{
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-}
 }
