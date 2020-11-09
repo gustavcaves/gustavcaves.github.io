@@ -27,7 +27,12 @@
 ## ⚡ Contact
 
 - rungustavo@gmail.com
-- [Linktree](https://linktr.ee/gustavcaves)
+- https://gustavcaves.github.io/
+- [@gustavcaves](https://twitter.com/gustavcaves)
+
+<!--
+- [linktree](https://linktr.ee/gustavcaves)
+-->
 
 <!--
 **gustavcaves/gustavcaves** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
