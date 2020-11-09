@@ -27,3 +27,16 @@ From
 ```bash
 STRML.net
 ```
+
+How to Update with GitHub Console
+--------
+
+```bash
+git status
+git add .
+git commit -m "commit"
+npm run build
+npm run deploy
+git status
+git push -u origin
+```
