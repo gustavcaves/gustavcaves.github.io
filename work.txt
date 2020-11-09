@@ -7,9 +7,9 @@ Full-Stack Developer Jr
 Contact
 -------
 
-* gustavcaves.github.io
-* rungustavo@gmail.com
-* @gustavcaves on Twitter
+* [gustavcaves.github.io](https://gustavcaves.github.io/)
+* [rungustavo@gmail.com](mailto:rungustavo@gmail.com)
+* [@gustavcaves on Twitter](https://twitter.com/gustavcaves)
 
 Projects
 --------
