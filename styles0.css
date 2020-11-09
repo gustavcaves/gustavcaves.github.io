@@ -44,7 +44,7 @@ pre, a {
  */
 
 pre:not(:empty) {
-  overflow: auto;
+  /**overflow: auto;*/
   background: rgb(48, 48, 48);
   border: 1px solid #ccc;
   max-height: 45vh;
@@ -90,7 +90,7 @@ body {
 }
 
 #style-text {
-  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform: translateX(98.5%) rotateY(0deg);
   -webkit-transform-origin: right;
   max-height: 93.1vh;
 }
@@ -101,6 +101,6 @@ body {
  */
 
 pre:not(#style-text) {
-  -webkit-transform: rotateY(10deg);
+  -webkit-transform: rotateY(0deg);
   -webkit-transform-origin: left;
 }
