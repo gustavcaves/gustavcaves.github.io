@@ -24,7 +24,7 @@ Technologies
 ------------
 
 Python Django 
-JavaScript Nodejs HTML5 CSS3
+JavaScript HTML5 CSS3 | Nodejs
 MySQL
 Amazon AWS
 Git GitHub
