@@ -99,14 +99,9 @@ QpLbKRXDAgg4mZI=
 =PDdA
 -----END PGP PUBLIC KEY BLOCK-----
 
-
 ## END gustav adolf caves (ät) gmail com ##
 
-*
-*
-
 ## BEGIN gustav (ät) github com ##
-
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: Keybase OpenPGP v1.0.0
@@ -206,6 +201,5 @@ Ij3TvKLAVXm6A31cDhwB7upb7Y6D7AM6zt4vJHoh3dCCcOfrALOtE8UmmGIQWoLW
 HGojT3WT92BUrNV+3NL7owCsq1UufYrgyUvash99gmL7LoqG
 =mvua
 -----END PGP PUBLIC KEY BLOCK-----
-
 
 ## END gustav (ät) github com ##

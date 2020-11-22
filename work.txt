@@ -23,9 +23,9 @@ Open Source
 Technologies
 ------------
 
-Python Django 
-JavaScript Nodejs | HTML5 CSS3
-MySQL
-Amazon AWS
-Git GitHub
-Java | C++
+* Python Django 
+* JavaScript Nodejs | HTML5 CSS3
+* MySQL
+* Amazon AWS
+* Git GitHub
+* Java | C++
