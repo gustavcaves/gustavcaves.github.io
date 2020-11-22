@@ -2,13 +2,13 @@
 
 
 Gustav Caves
-Full-Stack Developer Jr
+Full-Stack Developer
 
 Contact
 -------
 
-* [rungustavo@gmail.com](mailto:rungustavo@gmail.com)
-* [@gustavcaves on Twitter](https://twitter.com/gustavcaves)
+* [Mail: rungustavo@gmail.com](mailto:rungustavo@gmail.com)
+* [Twitter: @gustavcaves](https://twitter.com/gustavcaves)
 
 Projects
 --------
@@ -24,8 +24,8 @@ Technologies
 ------------
 
 Python Django 
-JavaScript HTML5 CSS3 | Nodejs
+JavaScript Nodejs | HTML5 CSS3
 MySQL
 Amazon AWS
 Git GitHub
-Java C++
+Java | C++
