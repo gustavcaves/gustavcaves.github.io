@@ -7,13 +7,13 @@ Full-Stack Developer
 Contact
 -------
 
-* [E-mail: rungustavo@gmail.com](mailto:rungustavo@gmail.com)
-* [Twitter: @gustavcaves](https://twitter.com/gustavcaves)
+* [E-mail: gustavcaves@gmail.com](mailto:gustavcaves@gmail.com)
 
 Projects
 --------
 
 * [gustavcaves.github.io](https://gustavcaves.github.io)
++ [Web Blog](https://gustavcaves.wordpress.com/)
 
 Open Source
 -----------
@@ -29,3 +29,16 @@ Technologies
 * Amazon AWS
 * Git GitHub
 * Java | C++
+
+Social Networks
+------------
+
+* [Facebook](https://www.facebook.com/gustavcaves91)
+* [Twitter](https://twitter.com/gustavcaves)
+* [Instagram](https://www.instagram.com/gustavcaves/)
+* [Medium](https://gustavcaves.medium.com/)
+* [LinkedIn](https://www.linkedin.com/in/gustavocuevas91/)
+* [YouTube](https://www.youtube.com/user/Eznus1)
+
+
+
