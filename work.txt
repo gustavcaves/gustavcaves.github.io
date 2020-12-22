@@ -14,8 +14,8 @@ Contact
 Projects
 --------
 
-* [gustavcaves.github.io](https://gustavcaves.github.io)
-+ [Web Blog](https://gustavcaves.wordpress.com/)
+* [gh-pages | Porfolio](https://gustavcaves.github.io)
++ [Blog](https://gustavcaves.wordpress.com/)
 
 Open Source
 -----------
@@ -35,12 +35,10 @@ Technologies
 Social Networks
 ------------
 
-* [Facebook](https://www.facebook.com/gustavcaves91)
 * [Twitter](https://twitter.com/gustavcaves)
 * [Instagram](https://www.instagram.com/gustavcaves/)
-* [Medium](https://gustavcaves.medium.com/)
 * [LinkedIn](https://www.linkedin.com/in/gustavocuevas91/)
-* [YouTube](https://www.youtube.com/user/Eznus1)
+* [GitHub](https://github.com/gustavcaves)
 
 
 
