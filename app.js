@@ -13,7 +13,7 @@ import getPrefix from './lib/getPrefix';
 
 // Vars that will help us get er done
 const isDev = window.location.hostname === 'localhost';
-const speed = isDev ? 0 : 16;
+const speed = isDev ? 0 : 89;
 let style, styleEl, workEl, pgpEl, skipAnimationEl, pauseEl;
 let animationSkipped = false, done = false, paused = false;
 let browserPrefix;
