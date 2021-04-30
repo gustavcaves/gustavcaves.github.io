@@ -44,14 +44,15 @@ pre, a {
  */
 
 pre:not(:empty) {
-  /**overflow: auto;*/
-  background: rgb(48, 48, 48);
+  /* *overflow: auto; */
+  /* background: rgb(48, 48, 48);  */
+  background: rgb(48, 48, 48); 
   border: 1px solid #ccc;
   max-height: 45vh;
   width: 49%;
   font-size: 14px;
   font-family: monospace;
-  padding: 1vh 0.5vw;
+  padding: 1vh 0.5vw ; 
   box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
   white-space: pre-wrap;
   outline: 0;
@@ -90,7 +91,7 @@ body {
 }
 
 #style-text {
-  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  /* -webkit-transform: translateX(98.5%) rotateY(-10deg); */
   -webkit-transform-origin: right;
   max-height: 93.1vh;
 }
@@ -101,6 +102,6 @@ body {
  */
 
 pre:not(#style-text) {
-  -webkit-transform: rotateY(10deg);
+  /* -webkit-transform: rotateY(10deg); */
   -webkit-transform-origin: left;
 }

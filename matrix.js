@@ -1,30 +1,71 @@
-const C = document.querySelector("canvas"),
-  $ = C.getContext("2d"),
-  W = (C.width = window.innerWidth),
-  H = (C.height = window.innerHeight);
+var canvas = document.body.appendChild( document.createElement( 'canvas' ) ),
+    context = canvas.getContext( '2d' );
+context.globalCompositeOperation = 'lighter';
+canvas.width = 1280;
+canvas.height = 800;
+draw();
 
-const str = "А+Б0В-Г1Д=Е2Ё Ж3З И4Й К5Л М6Н О7П Р8С Т9У Ф!Х Ц?Ч Ш.ЩЪ,Ы Ь:ЭЮ;Я",
-  matrix = str.split("");
+var textStrip = ['诶', '比', '西', '迪', '伊', '吉', '艾', '杰', '开', '哦', '屁', '提', '维'];
 
-let font = 11,
-  col = W / font,
-  arr = [];
+var stripCount = 60, stripX = new Array(), stripY = new Array(), dY = new Array(), stripFontSize = new Array();
 
-for (let i = 0; i < col; i++) arr[i] = 1;
-
-function draw() {
-  $.fillStyle = "rgba(0,0,0,.05)";
-  $.fillRect(0, 0, W, H);
-  $.fillStyle = "#0f0";
-  $.font = font + "px system-ui";
-  for (let i = 0; i < arr.length; i++) {
-    let txt = matrix[Math.floor(Math.random() * matrix.length)];
-    $.fillText(txt, i * font, arr[i] * font);
-    if (arr[i] * font > H && Math.random() > 0.975) arr[i] = 0;
-    arr[i]++;
-  }
+for (var i = 0; i < stripCount; i++) {
+    stripX[i] = Math.floor(Math.random()*1265);
+    stripY[i] = -100;
+    dY[i] = Math.floor(Math.random()*7)+3;
+    stripFontSize[i] = Math.floor(Math.random()*16)+8;
 }
 
-setInterval(draw, 123);
+var theColors = ['#cefbe4', '#81ec72', '#5cd646', '#54d13c', '#4ccc32', '#43c728'];
 
-window.addEventListener("resize", () => location.reload());
+var elem, context, timer;
+
+function drawStrip(x, y) {
+    for (var k = 0; k <= 20; k++) {
+        var randChar = textStrip[Math.floor(Math.random()*textStrip.length)];
+        if (context.fillText) {
+            switch (k) {
+            case 0:
+                context.fillStyle = theColors[0]; break;
+            case 1:
+                context.fillStyle = theColors[1]; break;
+            case 3:
+                context.fillStyle = theColors[2]; break;
+            case 7:
+                context.fillStyle = theColors[3]; break;
+            case 13:
+                context.fillStyle = theColors[4]; break;
+            case 17:
+                context.fillStyle = theColors[5]; break;
+            }
+            context.fillText(randChar, x, y);
+        }
+        y -= stripFontSize[k];
+    }
+}
+
+function draw() {
+    // clear the canvas and set the properties
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.shadowOffsetX = context.shadowOffsetY = 0;
+    context.shadowBlur = 8;
+    context.shadowColor = '#94f475';
+    
+    for (var j = 0; j < stripCount; j++) {
+        context.font = stripFontSize[j]+'px MatrixCode';
+        context.textBaseline = 'top';
+        context.textAlign = 'center';
+        
+        if (stripY[j] > 1358) {
+            stripX[j] = Math.floor(Math.random()*canvas.width);
+            stripY[j] = -100;
+            dY[j] = Math.floor(Math.random()*7)+3;
+            stripFontSize[j] = Math.floor(Math.random()*16)+8;
+            drawStrip(stripX[j], stripY[j]);
+        } else drawStrip(stripX[j], stripY[j]);
+        
+        stripY[j] += dY[j];
+    }
+  setTimeout(draw, 70);
+}
+
