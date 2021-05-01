@@ -13,7 +13,7 @@
  */
 
 * {
-  -webkit-transition: all 1s;
+  transition: .2s;
 }
 
 /**
@@ -49,7 +49,7 @@ pre:not(:empty) {
   background: rgb(48, 48, 48); 
   border: 1px solid #ccc;
   max-height: 45vh;
-  width: 49%;
+  width: 50.1%;
   font-size: 14px;
   font-family: monospace;
   padding: 1vh 0.5vw ; 
@@ -65,8 +65,9 @@ pre:not(:empty) {
  */
 
 #style-text {
-  -webkit-transform: translateX(95%);
+  -webkit-transform: translateX(105%);
   position: absolute;
+  padding: 1em;
 }
 
 /**
@@ -93,7 +94,8 @@ body {
 #style-text {
   /* -webkit-transform: translateX(98.5%) rotateY(-10deg); */
   -webkit-transform-origin: right;
-  max-height: 93.1vh;
+  max-height: 88.1vh;
+  width: 45%;
 }
 
 /**

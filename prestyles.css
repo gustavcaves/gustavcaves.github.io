@@ -16,6 +16,8 @@ pre {
 #content {
   position: absolute;
   top: 0; right: 0; left: 0; bottom: 20px;
+  padding: 1em;
+  width: 94%;
 }
 
 #header {
