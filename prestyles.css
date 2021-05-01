@@ -23,7 +23,7 @@ pre {
 
 #header {
   position: absolute;
-  bottom: 0;
+  bottom: 1em;
   height: 20px;
   left: 0;
   right: 0;
