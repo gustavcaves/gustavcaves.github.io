@@ -3,7 +3,7 @@
  * Hey. My name's Gustav Caves. I'm Developer.
  * open source contributor.
  *
- * I use Django and React to build interactive websites.
+ * I build interactive websites.
  *
  * How about some live coding?
  */
@@ -13,7 +13,7 @@
  */
 
 * {
-  transition: 1s;
+  transition: .2s;
 }
 
 /**
@@ -46,10 +46,11 @@ pre, a {
 pre:not(:empty) {
   /* *overflow: auto; */
   /* background: rgb(48, 48, 48);  */
+  background: rgb(48, 48, 48); 
   border: 1px solid #ccc;
   max-height: 45vh;
-  width: 48%;
-  font-size: x-large;
+  width: 50.1%;
+  font-size: 14px;
   font-family: monospace;
   padding: 1vh 0.5vw ; 
   box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
@@ -93,7 +94,7 @@ body {
 #style-text {
   /* -webkit-transform: translateX(98.5%) rotateY(-10deg); */
   -webkit-transform-origin: right;
-  max-height: 81vh;
+  max-height: 88.1vh;
   width: 45%;
 }
 
