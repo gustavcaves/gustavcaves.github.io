@@ -1,3 +1,22 @@
+bundle install
+
+bundle exec jekyll serve
+
+base url: "gc_jekyll" in file called _config.yml
+
+git init
+
+git checkout -b gh-pages
+
+git add .
+
+git commit -m "commit test"
+
+git remote add origin https://github.com/gustavcaves/dprol.github.io.git
+
+git push origin gh-pages
+
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
