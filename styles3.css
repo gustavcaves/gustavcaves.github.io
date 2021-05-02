@@ -15,6 +15,10 @@
   max-height: 71vh;
 }
 
+.text {
+  display: none;
+}
+
 #pgp-text {
   max-height: 10.3vh;
 }
