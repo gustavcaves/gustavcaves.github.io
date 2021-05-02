@@ -12,7 +12,7 @@ git add .
 
 git commit -m "commit test"
 
-git remote add origin https://github.com/gustavcaves/dprol.github.io.git
+git remote add origin https://github.com/gustavcaves/gustavcaves.github.io.git
 
 git push origin gh-pages
 
