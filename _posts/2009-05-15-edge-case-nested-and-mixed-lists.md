@@ -1,5 +1,5 @@
 ---
-title: "Modifying this web blog"
+title: "Modifying this web blog."
 categories:
   - Edge Case
 tags:
