@@ -1,9 +1,10 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "So hard to find a nice blog system"
 header:
   teaser: "/assets/images/500x300.png"
 categories: 
   - Jekyll
+  - Other
 tags:
   - update
 ---
