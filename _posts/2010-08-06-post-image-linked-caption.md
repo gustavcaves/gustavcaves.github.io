@@ -12,7 +12,7 @@ tags:
 {% endcapture %}
 
 {% capture fig_caption %}
-Stairs? Were we're going we don't need no stairs.
+Image with a caption.
 {% endcapture %}
 
 <figure>

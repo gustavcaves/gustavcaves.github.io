@@ -5,7 +5,7 @@ header:
   og_image: /assets/images/page-header-og-image.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Learn More"
+    - label: "Learn more"
       url: "https://unsplash.com"
 categories:
   - Layout
@@ -25,6 +25,6 @@ header:
   og_image: /assets/images/page-header-og-image.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
-    - label: "Learn More"
+    - label: "Learn more"
       url: "https://unsplash.com"
 ```
