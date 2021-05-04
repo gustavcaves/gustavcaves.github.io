@@ -1,0 +1,29 @@
+I"œ<p>The propose of this post is remembering to myself the basics comand to install Jekyll to use on my own computer.
+So the comands are:</p>
+
+<p><code class="language-plaintext highlighter-rouge">bundle install</code></p>
+
+<p>The previous is for install the config in Gemfile</p>
+
+<p><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></p>
+
+<p>This is for run the server localy.</p>
+
+<p><code class="language-plaintext highlighter-rouge">base url: "gc_jekyll" in file called _config.yml</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git init</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git checkout -b gh-pages</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git add .</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git commit -m "commit test"</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git remote add origin https://github.com/gustavcaves/gustavcaves.github.io.git</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">git push origin gh-pages</code></p>
+
+<p>There are a lot, I know but are the principals to me.</p>
+
+<p>That all.</p>
+:ET

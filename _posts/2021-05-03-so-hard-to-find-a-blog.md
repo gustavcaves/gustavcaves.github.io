@@ -1,5 +1,5 @@
 ---
-title:  "So hard to find a nice blog system"
+title:  "So Hard To Find a Nice Blog System"
 header:
   teaser: "/assets/images/500x300.png"
 categories: 
