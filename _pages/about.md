@@ -16,7 +16,7 @@ last_modified_at: 2021-02-05T20:54:41-05:00
 toc: true
 ---
 
-Hello! My name is Gustavo Cuevas. 
+Hello! I`m Gustav Caves. 
 
 I am a Computer Programmer Django, Python, JavaScript, passionate about minimalism, I love to record my activities and see my progress in anything I propose, I am a programmer with and other web development technologies I try to transmit that knowledge on my blog, I do it from My experience in using whatever I publish.
 
