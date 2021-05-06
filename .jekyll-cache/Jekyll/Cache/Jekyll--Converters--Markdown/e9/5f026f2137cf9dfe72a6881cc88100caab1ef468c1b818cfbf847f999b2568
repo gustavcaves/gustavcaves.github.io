@@ -1,0 +1,40 @@
+I"Ö	<p>First of all, you install the correct PostgreSQL version for the operating system we have.</p>
+
+<p>Once we have it installed with a password and everything, we create a test database through the command line or the one that is going to be needed.</p>
+
+<p><code class="language-plaintext highlighter-rouge">create database TestBase</code></p>
+
+<p>We must also install a package through pip that does not come by default and is necessary for it to work correctly:</p>
+
+<p><code class="language-plaintext highlighter-rouge">pip install psycopg2</code></p>
+
+<p>If you have errors, especially on mac os, you need to use the following command</p>
+
+<p><code class="language-plaintext highlighter-rouge">pip install psycopg2-binary</code></p>
+
+<p>And with that it should work. However, we still need to configure it in the settings.py</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">DATABASES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'default'</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s">'ENGINE'</span><span class="p">:</span> <span class="s">'django.db.backends.postgresql_psycopg2'</span><span class="p">,</span>
+        <span class="s">'NAME'</span><span class="p">:</span> <span class="s">'projectrestaurant'</span><span class="p">,</span>
+        <span class="s">'USER'</span><span class="p">:</span> <span class="s">'postgres'</span><span class="p">,</span>
+        <span class="s">'PASSWORD'</span><span class="p">:</span> <span class="s">'XXXXXXX'</span><span class="p">,</span>
+        <span class="s">'HOST'</span><span class="p">:</span> <span class="s">'127.0.0.1'</span><span class="p">,</span>
+        <span class="s">'PORT'</span><span class="p">:</span> <span class="s">'5432'</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Adding this configuration and we would have the connection made with the database.</p>
+
+<p>So we make sure that we are in the folder of our project and we carry out the migrations</p>
+
+<p><code class="language-plaintext highlighter-rouge">python manage.py makemigrations</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">python manage.py migrate</code></p>
+
+<p>Now, we must bear in mind that our python app must be in INSTALLED_APPS added.</p>
+
+<p>With that if we go to our pgAdmin4 and look for the database and the tables we will see them created.</p>
+:ET

@@ -34,4 +34,10 @@ var store = [{
         "tags": ["comand cli"],
         "url": "/jekyll/basics-comands-for-jekyll/",
         "teaser": "/assets/images/500x300.png"
+      },{
+        "title": "Configure PostgreSQL in Django",
+        "excerpt":"First of all, you install the correct PostgreSQL version for the operating system we have. Once we have it installed with a password and everything, we create a test database through the command line or the one that is going to be needed. create database TestBase We must also install...","categories": ["Django"],
+        "tags": ["PostgreSQL"],
+        "url": "/django/config-postgresql-on-django/",
+        "teaser": "/assets/images/500x300.png"
       }]

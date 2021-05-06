@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-06T16:34:15+02:00</updated><id>/feed.xml</id><title type="html">Gustav Caves’ Blog</title><subtitle>An amazing website with Jekyll.</subtitle><author><name>Gustav Caves</name></author><entry><title type="html">Basic Comands for Jekyll Update</title><link href="/jekyll/basics-comands-for-jekyll/" rel="alternate" type="text/html" title="Basic Comands for Jekyll Update" /><published>2021-05-04T00:00:00+02:00</published><updated>2021-05-04T00:00:00+02:00</updated><id>/jekyll/basics-comands-for-jekyll</id><content type="html" xml:base="/jekyll/basics-comands-for-jekyll/">&lt;p&gt;The propose of this post is remembering to myself the basics comand to install Jekyll to use on my own computer.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-07T00:41:25+02:00</updated><id>/feed.xml</id><title type="html">Gustav Caves’ Blog</title><subtitle>An amazing website with Jekyll.</subtitle><author><name>Gustav Caves</name></author><entry><title type="html">Configure PostgreSQL in Django</title><link href="/django/config-postgresql-on-django/" rel="alternate" type="text/html" title="Configure PostgreSQL in Django" /><published>2021-05-07T00:00:00+02:00</published><updated>2021-05-07T00:00:00+02:00</updated><id>/django/config-postgresql-on-django</id><content type="html" xml:base="/django/config-postgresql-on-django/">&lt;p&gt;First of all, you install the correct PostgreSQL version for the operating system we have.&lt;/p&gt;
+
+&lt;p&gt;Once we have it installed with a password and everything, we create a test database through the command line or the one that is going to be needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create database TestBase&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We must also install a package through pip that does not come by default and is necessary for it to work correctly:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install psycopg2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have errors, especially on mac os, you need to use the following command&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install psycopg2-binary&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And with that it should work. However, we still need to configure it in the settings.py&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;DATABASES&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;'default'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;'ENGINE'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'django.db.backends.postgresql_psycopg2'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;'NAME'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'projectrestaurant'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;'USER'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'postgres'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;'PASSWORD'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'XXXXXXX'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;'HOST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'127.0.0.1'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;'PORT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'5432'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Adding this configuration and we would have the connection made with the database.&lt;/p&gt;
+
+&lt;p&gt;So we make sure that we are in the folder of our project and we carry out the migrations&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python manage.py makemigrations&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python manage.py migrate&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, we must bear in mind that our python app must be in INSTALLED_APPS added.&lt;/p&gt;
+
+&lt;p&gt;With that if we go to our pgAdmin4 and look for the database and the tables we will see them created.&lt;/p&gt;</content><author><name>Gustav Caves</name></author><category term="Django" /><category term="PostgreSQL" /><summary type="html">First of all, you install the correct PostgreSQL version for the operating system we have.</summary></entry><entry><title type="html">Basic Comands for Jekyll Update</title><link href="/jekyll/basics-comands-for-jekyll/" rel="alternate" type="text/html" title="Basic Comands for Jekyll Update" /><published>2021-05-04T00:00:00+02:00</published><updated>2021-05-04T00:00:00+02:00</updated><id>/jekyll/basics-comands-for-jekyll</id><content type="html" xml:base="/jekyll/basics-comands-for-jekyll/">&lt;p&gt;The propose of this post is remembering to myself the basics comand to install Jekyll to use on my own computer.
 So the comands are:&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;&lt;/p&gt;
