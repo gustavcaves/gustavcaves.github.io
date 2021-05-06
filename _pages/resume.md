@@ -36,7 +36,8 @@ classes: wide
 
 **Interest**
 
-    Online Learning, Programing Tools, Computer Science, Jekyll
+    Online Learning, Programing Tools, 
+    Computer Science, Jekyll
 
 **Education**
 
