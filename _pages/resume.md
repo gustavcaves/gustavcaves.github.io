@@ -12,7 +12,7 @@ classes: wide
 
 **Experience**
 
-    See my projects
+    See my projects and go to my linkedin profile.
 
 **Languages**
 

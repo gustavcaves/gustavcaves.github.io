@@ -6,6 +6,8 @@ main:
     url: /portfolio/
   - title: "Resume"
     url: /resume/
+  - title: "Stuff I Use"
+    url: /stuff/
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Quick-Start"
