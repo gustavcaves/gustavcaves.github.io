@@ -1,9 +1,7 @@
 ---
 title: Stuff I Use
-layout: collection
 permalink: /stuff/
-entries_layout: grid
-classes: wide
+last_modified_at: 2021-05-06T16:54:41-05:00
 ---
 
 *Stuff I use from my computing setup to camera gear:*
