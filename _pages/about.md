@@ -23,3 +23,5 @@ I'm Gustav Caves.
 I'm a Computer Programmer Python, Django. Passionate about minimalism, I love to record my activities and see my progress in anything I propose, I am a programmer with and other web development technologies I try to transmit that knowledge on my blog, I do it from My experience in using whatever I publish.
 
 I'm using Jekyll now, because it is so cool to edit in VS Code, so powerful and work with github, coming soon I hope translate this to AWS with my own domain gustavcaves.com 
+
+[Quick-Start-With-Minimal-Mistakes-Advanced-Theme-For-Jekyll](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)

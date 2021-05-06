@@ -10,5 +10,5 @@ main:
     url: /stuff/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Quick-Start"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Quick-Start"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/

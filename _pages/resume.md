@@ -41,4 +41,6 @@ classes: wide
 
 **Education**
 
+    Platzi 
+    Udemy
     Tecnologist at System Administration
