@@ -17,6 +17,12 @@ var store = [{
         "url": "/jekyll/welcome-to-jekyll/",
         "teaser": "/assets/images/500x300.png"
       },{
+        "title": "Using GitHub for documentation",
+        "excerpt":"I started doing documentation in notion and that platform is very slow when opening links so I stopped using it too although it seems nice but it gets boring, so I decided to write down a blog post on this website to test how it was going and well it...","categories": ["Personal Note"],
+        "tags": ["Reflection"],
+        "url": "/personal%20note/using-git/",
+        "teaser": "/assets/images/500x300.png"
+      },{
         "title": "So Hard To Find a Nice Blog System",
         "excerpt":"Has been difficult to me find a good system for bloging, I don`t know why spend a lot of time trying to configure out a good blog posting.  ","categories": ["Jekyll","Other"],
         "tags": ["update"],
