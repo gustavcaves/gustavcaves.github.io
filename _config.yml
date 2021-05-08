@@ -274,6 +274,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  docs:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -304,3 +307,15 @@ defaults:
       layout: single
       author_profile: false
       share: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: fasle
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"

@@ -1,4 +1,16 @@
 var store = [{
+        "title": "Introducction to Web Playground Django",
+        "excerpt":"Hasta ahora os he enseñado cómo hacer un par de webs relativamente comunes mientras estábamos aprendiendo, pero ha llegado el momento de meter las manos en el código. Para este tercer y último proyecto del curso, en lugar de una web como las dos anteriores, os propongo crear un playground....","categories": [],
+        "tags": [],
+        "url": "/docs/webplayground-django/introduction/",
+        "teaser": null
+      },{
+        "title": "Preparar la app core",
+        "excerpt":"Empezaremos creando un proyecto en nuestro entorno django2: https://docs.hektorprofe.net/cdn/django/images/image829.png Ahora os voy a proporcionar una app Core preparada para este proyecto, es en esencia igual que la de la webempresa, pero en ella he adaptado los templates a algo más genérico. Por defecto trae dos páginas: home y una genérica,...","categories": [],
+        "tags": [],
+        "url": "/docs/webplayground-django/preparar-la-app-core/",
+        "teaser": null
+      },{
         "title": "My First Project",
         "excerpt":"This project has been deploy with django and react as a pricipal tecnologies.                                                                                                                                This is a sample gallery to go along with this case study.       as you can see this is a test only.  ","categories": [],
         "tags": [],

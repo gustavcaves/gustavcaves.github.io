@@ -10,7 +10,23 @@ main:
     url: /blog/
   - title: "Stuff I Use"
     url: /stuff/
+  - title: "Documentation"
+    url: /collection-archive-docs/
   # - title: "Sitemap"
   #   url: /sitemap/
   # - title: "Quick-Start"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+
+# documentation links
+docs:
+  - title: Playground Django Started
+    children:
+      - title: "Introduction"
+        url: /docs/webplayground-django/introduction/
+      - title: "Peparar la app core"
+        url: /docs/webplayground-django/preparar-la-app-core/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/

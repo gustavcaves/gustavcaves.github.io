@@ -1,0 +1,15 @@
+I"�<p>Empezaremos creando un proyecto en nuestro entorno django2:</p>
+
+<p>Ahora os voy a proporcionar una app Core preparada para este proyecto, es en esencia igual que la de la webempresa, pero en ella he adaptado los templates a algo más genérico. Por defecto trae dos páginas: home y una genérica, sample:</p>
+
+<p>\</p>
+
+<p>Sólo tenemos que añadirla a nuestra lista de APPS en settings y en el urls.py del proyecto:</p>
+
+<p>\</p>
+
+<p>Comprobamos si funciona:</p>
+
+<p>Bien, ahora ya podemos empezar.</p>
+
+:ET
