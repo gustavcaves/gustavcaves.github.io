@@ -13,12 +13,8 @@ last_modified_at: 2021-05-06T16:54:41-05:00
 
 **Software I Use**
 
-    Evernote Legacy on Windows: 
-        Is the best app for productivity for me.
-        I am advanced user.
-    Virtual Box:
-        To install Evernote Legacy Version, 
-        and Office 
+    Evernote Legacy,
+    Virtual Box
 
 **Desktop/Movile App I Use**
 
