@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "Gustav Caves"
-  avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am trying to make a blog."
+  avatar           : "/assets/images/Logo_Avatar_gustavcaves.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am trying to make a blog. Web Developer Full Stack Django and ReactJS"
   location         : "Madrid / Spain"
   email            : 
   links:

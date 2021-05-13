@@ -17,12 +17,6 @@ var store = [{
         "url": "/portfolio/my-first-project/",
         "teaser": "http://placekitten.com/g/200/300"
       },{
-        "title": "My First Project",
-        "excerpt":"This project has been deploy with django and react as a pricipal tecnologies.                                                                                                                                This is a sample gallery to go along with this case study.       as you can see this is a test only.  ","categories": [],
-        "tags": [],
-        "url": "/portfolio/my-first-project2/",
-        "teaser": "http://placekitten.com/g/200/300"
-      },{
         "title": "Welcome to Jekyll!",
         "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["Jekyll"],
         "tags": ["update"],

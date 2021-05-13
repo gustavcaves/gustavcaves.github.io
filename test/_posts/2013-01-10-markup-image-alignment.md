@@ -1,5 +1,5 @@
 ---
-title: "Markup: Image Alignment"
+title: ""
 categories:
   - Markup
 tags:
