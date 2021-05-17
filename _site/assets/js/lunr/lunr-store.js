@@ -11,7 +11,7 @@ var store = [{
         "url": "/docs/webplayground-django/preparar-la-app-core/",
         "teaser": null
       },{
-        "title": "My First Project",
+        "title": "Blog on Django",
         "excerpt":"This project has been deploy with django and react as a pricipal tecnologies.                                                                                                                                This is a sample gallery to go along with this case study.       as you can see this is a test only.  ","categories": [],
         "tags": [],
         "url": "/portfolio/my-first-project/",
