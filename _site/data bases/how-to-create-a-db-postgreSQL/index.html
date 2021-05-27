@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Using GitHub for documentation - Gustav Caves’ Blog</title>
-<meta name="description" content="I started doing documentation in notion and that platform is very slow when opening links so I stopped using it too although it seems nice but it gets boring, so I decided to write down a blog post on this website to test how it was going and well it seems that it was going well but it turns out that for each video I was making a post which at a statistical level does not represent valuable information, that is, the number of blogs published, so now I am testing the same git hub in the readme.md document, a Mark Down file that allows With only text, create interesting documentation, the same one that I will use when I need to make a query quickly.">
+<!-- begin _includes/seo.html --><title>Cómo crear una Base de Datos en PostgreSQL - Gustav Caves’ Blog</title>
+<meta name="description" content="Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query tool agregamos">
 
 
   <meta name="author" content="Gustav Caves">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Gustav Caves' Blog">
-<meta property="og:title" content="Using GitHub for documentation">
-<meta property="og:url" content="/personal%20note/using-git/">
+<meta property="og:title" content="Cómo crear una Base de Datos en PostgreSQL">
+<meta property="og:url" content="/data%20bases/how-to-create-a-db-postgreSQL/">
 
 
-  <meta property="og:description" content="I started doing documentation in notion and that platform is very slow when opening links so I stopped using it too although it seems nice but it gets boring, so I decided to write down a blog post on this website to test how it was going and well it seems that it was going well but it turns out that for each video I was making a post which at a statistical level does not represent valuable information, that is, the number of blogs published, so now I am testing the same git hub in the readme.md document, a Mark Down file that allows With only text, create interesting documentation, the same one that I will use when I need to make a query quickly.">
+  <meta property="og:description" content="Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query tool agregamos">
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-03-16T00:00:00+01:00">
+  <meta property="article:published_time" content="2021-05-27T00:00:00+02:00">
 
 
 
@@ -47,7 +47,7 @@
   
 
 
-<link rel="canonical" href="/personal%20note/using-git/">
+<link rel="canonical" href="/data%20bases/how-to-create-a-db-postgreSQL/">
 
 
 
@@ -300,15 +300,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Using GitHub for documentation">
-    <meta itemprop="description" content="I started doing documentation in notion and that platform is very slow when opening links so I stopped using it too although it seems nice but it gets boring, so I decided to write down a blog post on this website to test how it was going and well it seems that it was going well but it turns out that for each video I was making a post which at a statistical level does not represent valuable information, that is, the number of blogs published, so now I am testing the same git hub in the readme.md document, a Mark Down file that allows With only text, create interesting documentation, the same one that I will use when I need to make a query quickly.">
-    <meta itemprop="datePublished" content="2021-03-16T00:00:00+01:00">
+    <meta itemprop="headline" content="Cómo crear una Base de Datos en PostgreSQL">
+    <meta itemprop="description" content="Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query tool agregamos">
+    <meta itemprop="datePublished" content="2021-05-27T00:00:00+02:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Using GitHub for documentation
+          <h1 id="page-title" class="page__title" itemprop="headline">Cómo crear una Base de Datos en PostgreSQL
 </h1>
           
 
@@ -318,7 +318,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2021-03-16T00:00:00+01:00">March 16, 2021</time>
+        <time datetime="2021-05-27T00:00:00+02:00">May 27, 2021</time>
       </span>
     
 
@@ -343,9 +343,15 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>I started doing documentation in notion and that platform is very slow when opening links so I stopped using it too although it seems nice but it gets boring, so I decided to write down a blog post on this website to test how it was going and well it seems that it was going well but it turns out that for each video I was making a post which at a statistical level does not represent valuable information, that is, the number of blogs published, so now I am testing the same git hub in the readme.md document, a Mark Down file that allows With only text, create interesting documentation, the same one that I will use when I need to make a query quickly.</p>
+        <p>Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query tool agregamos</p>
 
-<p>And nothing else, I just wanted to write this. 😄</p>
+<p><code class="language-plaintext highlighter-rouge">create database NOMBRE</code></p>
+
+<p>Luego para ejecutarla damos clic en el botón de play para que nos ejecute el comando y cree la base de datos tal cual indicamos.</p>
+
+<p>Bien ahora que ya sabemos realizarlo por medio de la consola por asi decirlo, es hora de usar la GUI interfaz gráfica.</p>
+
+<p>Para lo cual nos ubicamos en el objeto de Databases y en Object -&gt; Create -&gt; Database… allí nos aparecen varias pestañas donde definiremos el nombre de la base de datos, la codificación, el propietario, seguridad y privilegios de usuarios, y el SQL que será el código final a ejecutar de acuerdo a lo que sea nuestra selección previa en los formularios.</p>
 
         
       </section>
@@ -362,7 +368,7 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#reflection" class="page__taxonomy-item" rel="tag">Reflection</a>
+      <a href="/tags/#postgresql" class="page__taxonomy-item" rel="tag">PostgreSQL</a>
     
     </span>
   </p>
@@ -379,7 +385,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#personal-note" class="page__taxonomy-item" rel="tag">Personal Note</a>
+      <a href="/categories/#data-bases" class="page__taxonomy-item" rel="tag">Data Bases</a>
     
     </span>
   </p>
@@ -387,7 +393,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-03-16T00:00:00+01:00">March 16, 2021</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-05-27T00:00:00+02:00">May 27, 2021</time></p>
 
 
       </footer>
@@ -397,22 +403,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Using+GitHub+for+documentation%20%2Fpersonal%2520note%2Fusing-git%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=C%C3%B3mo+crear+una+Base+de+Datos+en+PostgreSQL%20%2Fdata%2520bases%2Fhow-to-create-a-db-postgreSQL%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fpersonal%2520note%2Fusing-git%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fdata%2520bases%2Fhow-to-create-a-db-postgreSQL%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fpersonal%2520note%2Fusing-git%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fdata%2520bases%2Fhow-to-create-a-db-postgreSQL%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/jekyll/welcome-to-jekyll/" class="pagination--pager" title="Welcome to Jekyll!
+      <a href="/django/config-postgresql-on-django/" class="pagination--pager" title="Configure PostgreSQL in Django
 ">Previous</a>
     
     
-      <a href="/jekyll/other/so-hard-to-find-a-blog/" class="pagination--pager" title="So Hard To Find a Nice Blog System
+      <a href="/data%20bases/how-to-delete-a-db-postgreSQL/" class="pagination--pager" title="Cómo elíminar una Base de Datos en PostgreSQL
 ">Next</a>
     
   </nav>
@@ -491,56 +497,6 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/data%20bases/how-to-create-a-db-postgreSQL/" rel="permalink">Cómo crear una Base de Datos en PostgreSQL
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2021-05-27T00:00:00+02:00">May 27, 2021</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query t...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/500x300.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
         <a href="/django/config-postgresql-on-django/" rel="permalink">Configure PostgreSQL in Django
 </a>
       
@@ -566,7 +522,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          less than 1 minute read
         
       </span>
     
@@ -626,6 +582,57 @@
 
     <p class="archive__item-excerpt" itemprop="description">The propose of this post is remembering to myself the basics comand to install Jekyll to use on my own computer.
 So the comands are:
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/500x300.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/jekyll/other/so-hard-to-find-a-blog/" rel="permalink">So Hard To Find a Nice Blog System
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-05-03T00:00:00+02:00">May 3, 2021</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Has been difficult to me find a good system for bloging, I don`t know why spend a lot of time trying to configure out a good blog posting.
 </p>
   </article>
 </div>

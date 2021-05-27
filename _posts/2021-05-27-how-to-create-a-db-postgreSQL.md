@@ -1,0 +1,19 @@
+---
+title:  "Cómo crear una Base de Datos en PostgreSQL"
+header:
+  teaser: "/assets/images/500x300.png"
+categories: 
+  - Data Bases
+tags:
+  - PostgreSQL
+---
+
+Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query tool agregamos 
+
+`create database NOMBRE`
+
+Luego para ejecutarla damos clic en el botón de play para que nos ejecute el comando y cree la base de datos tal cual indicamos.
+
+Bien ahora que ya sabemos realizarlo por medio de la consola por asi decirlo, es hora de usar la GUI interfaz gráfica.
+
+Para lo cual nos ubicamos en el objeto de Databases y en Object -> Create -> Database... allí nos aparecen varias pestañas donde definiremos el nombre de la base de datos, la codificación, el propietario, seguridad y privilegios de usuarios, y el SQL que será el código final a ejecutar de acuerdo a lo que sea nuestra selección previa en los formularios.

@@ -58,4 +58,16 @@ var store = [{
         "tags": ["PostgreSQL"],
         "url": "/django/config-postgresql-on-django/",
         "teaser": "/assets/images/500x300.png"
+      },{
+        "title": "Cómo crear una Base de Datos en PostgreSQL",
+        "excerpt":"Una vez tengamos instalado el PostgreSQL, nos ubicamos en la pestaña de Databases y encima de la de postgre, luego vamos a tools y en en al cuadro de query tool agregamos create database NOMBRE Luego para ejecutarla damos clic en el botón de play para que nos ejecute el...","categories": ["Data Bases"],
+        "tags": ["PostgreSQL"],
+        "url": "/data%20bases/how-to-create-a-db-postgreSQL/",
+        "teaser": "/assets/images/500x300.png"
+      },{
+        "title": "Cómo elíminar una Base de Datos en PostgreSQL",
+        "excerpt":"La forma mas sencilla es darle click derecho sobre la base de dato en cuestión y darle clic en Delete/Drop y aceptar la operación, y simplemente se va a eliminar. La otra forma de eliminar es escribiendo el codigo drop database if exists \"NOMBRE_DB\" Si nos aparece un error al...","categories": ["Data Bases"],
+        "tags": ["PostgreSQL"],
+        "url": "/data%20bases/how-to-delete-a-db-postgreSQL/",
+        "teaser": "/assets/images/500x300.png"
       }]
