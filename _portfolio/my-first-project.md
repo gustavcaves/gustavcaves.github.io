@@ -1,5 +1,5 @@
 ---
-title: "Blog on Django"
+title: "My Fist Project TEST"
 excerpt: "This project was developed with Django"
 header:
   image: https://images.unsplash.com/photo-1610433572201-110753c6cff9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80

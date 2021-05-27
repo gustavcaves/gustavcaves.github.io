@@ -12,10 +12,22 @@ var store = [{
         "teaser": null
       },{
         "title": "Blog on Django",
+        "excerpt":"Este proyecto fue desarrollado en base a un blog sencillo donde se ponen las entradas del blog con su fecha y todo en django.                                                                                                                                This is a sample gallery to go along with this case study.       as you can see this is a test only.  ","categories": [],
+        "tags": [],
+        "url": "/portfolio/intro-django/",
+        "teaser": "http://placekitten.com/g/200/300"
+      },{
+        "title": "My Fist Project TEST",
         "excerpt":"This project has been deploy with django and react as a pricipal tecnologies.                                                                                                                                This is a sample gallery to go along with this case study.       as you can see this is a test only.  ","categories": [],
         "tags": [],
         "url": "/portfolio/my-first-project/",
         "teaser": "http://placekitten.com/g/200/300"
+      },{
+        "title": "Polls from Django Oficial",
+        "excerpt":"En este proyecto hago una breve introducción a las posibilidades de Django, consiste en el desarrollo de una aplicación básica de encuestas donde se escogen opciones de algunas preguntas que se guardan en la base de datos. Link de GitHub This is a sample gallery to go along with this...","categories": [],
+        "tags": [],
+        "url": "/portfolio/polls-django/",
+        "teaser": "/assets/images/porfolio/polls-django_01.png"
       },{
         "title": "Welcome to Jekyll!",
         "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["Jekyll"],
