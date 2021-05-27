@@ -1,5 +1,5 @@
 ---
-title:  "Cómo elíminar una Base de Datos en PostgreSQL"
+title:  "Cómo eliminar una Base de Datos en PostgreSQL"
 header:
   teaser: "/assets/images/500x300.png"
 categories: 
