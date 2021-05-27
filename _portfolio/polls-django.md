@@ -2,30 +2,30 @@
 title: "Polls from Django Oficial"
 excerpt: "Este proyecto es Backend basado en Polls de Django"
 header:
-  image: assets/images/porfolio/polls-django_01.png
-  teaser: assets/images/porfolio/polls-django_01.png
+  image: assets/images/porfolio/polls-django/polls-django_01.png
+  teaser: assets/images/porfolio/polls-django/polls-django_01.png
 sidebar:
   - title: "Role"
-    image: assets/images/porfolio/polls-django_01.png
+    image: assets/images/porfolio/polls-django/polls-django_01.png
     image_alt: "logo"
     text: "Designer, Back-End Developer"
   - title: "Responsibilities"
     text: "Database, BackEnd Django"
 gallery:
-  - url: assets/images/porfolio/polls-django_01.png
-    image_path: assets/images/porfolio/polls-django_01.png
+  - url: assets/images/porfolio/polls-django/polls-django_01.png
+    image_path: assets/images/porfolio/polls-django/polls-django_01.png
     alt: "placeholder image 1"
-  - url: assets/images/porfolio/polls-django_02.png
-    image_path: assets/images/porfolio/polls-django_02.png
+  - url: assets/images/porfolio/polls-django/polls-django_02.png
+    image_path: assets/images/porfolio/polls-django/polls-django_02.png
     alt: "placeholder image 2"
-  - url: assets/images/porfolio/polls-django_03.png
-    image_path: assets/images/porfolio/polls-django_03.png
+  - url: assets/images/porfolio/polls-django/polls-django_03.png
+    image_path: assets/images/porfolio/polls-django/polls-django_03.png
     alt: "placeholder image 3"
-  - url: assets/images/porfolio/polls-django_04.png
-    image_path: assets/images/porfolio/polls-django_04.png
+  - url: assets/images/porfolio/polls-django/polls-django_04.png
+    image_path: assets/images/porfolio/polls-django/polls-django_04.png
     alt: "placeholder image 4"
-  - url: assets/images/porfolio/polls-django_05.png
-    image_path: assets/images/porfolio/polls-django_05.png
+  - url: assets/images/porfolio/polls-django/polls-django_05.png
+    image_path: assets/images/porfolio/polls-django/polls-django_05.png
     alt: "placeholder image 5"
 
 ---
