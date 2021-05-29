@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Gustav Caves"
-  avatar           : "/assets/images/Logo_Avatar_gustavcaves.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Logo_Avatar_gustavcaves_02.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am trying to make a blog. Web Developer Full Stack Django and ReactJS"
   location         : "Madrid / Spain"
   email            : 
@@ -103,7 +103,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:rungustavo@gmail.com"
-    - label: "Website"
+    - label: "Más Sobre Mí"
       icon: "fas fa-fw fa-link"
       url: "https://bit.ly/33NjY8z"
     - label: "Twitter"

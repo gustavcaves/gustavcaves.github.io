@@ -1,8 +1,0 @@
-I"<p>La forma mas sencilla es darle click derecho sobre la base de dato en cuestión y darle clic en Delete/Drop y aceptar la operación, y simplemente se va a eliminar.</p>
-
-<p>La otra forma de eliminar es escribiendo el codigo</p>
-
-<p><code class="language-plaintext highlighter-rouge">drop database if exists "NOMBRE_DB"</code></p>
-
-<p>Si nos aparece un error al intentar eliminarla le damos clic derecho a la base de datos en la barra lateral izquierda y desconectamos la base de datos, y luego lo intentamos nuevamente para eliminar.</p>
-:ET
